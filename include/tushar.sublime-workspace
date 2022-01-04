@@ -1,0 +1,423 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stu",
+				"Students"
+			],
+			[
+				"de",
+				"decrypted_string"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"lo",
+				"logout"
+			],
+			[
+				"Stu",
+				"StudentEnrollment"
+			],
+			[
+				"booki",
+				"bookid"
+			],
+			[
+				"st",
+				"StudentID"
+			],
+			[
+				"row",
+				"row1"
+			],
+			[
+				"boo",
+				"book_price"
+			],
+			[
+				"co",
+				"con1"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"Pas",
+				"Password"
+			],
+			[
+				"se",
+				"secondyear"
+			],
+			[
+				"pu",
+				"publication"
+			],
+			[
+				"dep",
+				"dept"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"book",
+				"book_code"
+			],
+			[
+				"mysql_nu",
+				"mysql_num_rows"
+			],
+			[
+				"to",
+				"totalCS"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"t",
+				"text-transform"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"en",
+				"enrollment_no"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/sml_b/all_students.php",
+			"settings":
+			{
+				"buffer_size": 5132,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "tushar.sublime-project",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/sml_b/applications.html",
+		"/C/Program Files/Sublime Text 3/sublime.py",
+		"/C/xampp/htdocs/sml_b/config/db.php",
+		"/C/xampp/htdocs/sml_b/edit_profile.php",
+		"/C/xampp/htdocs/sml_b/issue_book.php",
+		"/C/xampp/htdocs/sml_b/search_book.php",
+		"/C/xampp/htdocs/sml_b/include/nav.html",
+		"/C/xampp/htdocs/sml_b/include/snav.html",
+		"/C/xampp/htdocs/sml_b/all_students.php",
+		"/C/xampp/htdocs/sml_b/search_students.php",
+		"/C/xampp/htdocs/sml_b/student_details.php",
+		"/C/xampp/htdocs/sml_b/student_dash.php",
+		"/C/xampp/htdocs/sml_b/dashboard.php",
+		"/C/xampp/htdocs/sml_b/atd/AddAttendance.php",
+		"/F/data0/1march/sml_b/attendence.php",
+		"/C/xampp/htdocs/sml_b/attendence.php",
+		"/C/xampp/htdocs/sml_b/add_attendence.php",
+		"/C/xampp/htdocs/sml_b/atd/class/dbclass.php",
+		"/C/xampp/htdocs/sml_b/atd/class/EmpRegister.php",
+		"/C/xampp/htdocs/sml_b/manage-books.php",
+		"/C/xampp/htdocs/sml_b/manage_book_backup.php",
+		"/C/xampp/htdocs/sml_b/manage_issue_book.php",
+		"/C/xampp/htdocs/sml_b/atd/config/config.php",
+		"/C/xampp/htdocs/sml_b/login.php",
+		"/C/xampp/htdocs/sml_b/register.php",
+		"/C/xampp/htdocs/sml_b/logout.php",
+		"/C/xampp/htdocs/sml_b/forgot-password.php",
+		"/C/xampp/sendmail/sendmail.ini",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/sml_b/s_register.php",
+		"/C/xampp/htdocs/sml_b/library/library/admin/reg-students.php",
+		"/C/xampp/htdocs/sml_b/library/library/admin/manage-issued-books.php",
+		"/C/xampp/htdocs/sml_b/add_book.php",
+		"/C/xampp/htdocs/sml_b/library/library/admin/get_student.php",
+		"/C/xampp/htdocs/sml_b/library/library/admin/issue-book.php",
+		"/C/xampp/htdocs/sml_b/library/library/admin/manage-books.php",
+		"/C/xampp/htdocs/sml_b/library/library/admin/add-book.php",
+		"/C/xampp/htdocs/sml_b/add_book_backup.php",
+		"/C/xampp/htdocs/sml_b/library/library/includes/config.php",
+		"/C/xampp/htdocs/sml_b/library/library/admin/dashboard.php",
+		"/C/xampp/htdocs/sml_b/snav.php",
+		"/C/xampp/htdocs/sml_b/library/library/dashboard.php",
+		"/C/xampp/htdocs/sml_b/config/validations.php",
+		"/C/xampp/htdocs/sml_b/css/main.css",
+		"/C/xampp/htdocs/sml_b/css/sb-admin.min.css",
+		"/C/xampp/htdocs/sml_b/css/sb-admin.css",
+		"/C/xampp/htdocs/sml_b/index.php",
+		"/C/xampp/htdocs/sml/index.php",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/sml/signup.php",
+		"/C/xampp/htdocs/sml/index.html",
+		"/F/data0/sml_b/register.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ini_set",
+			"[sendmail]",
+			"getstudent",
+			"dataTables",
+			"record",
+			"bootstrap",
+			"bootstrap.js",
+			"></",
+			"author",
+			"<th>",
+			"char",
+			"chart",
+			"center",
+			"cente",
+			"chart"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<td>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/sml_b/all_students.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tushar.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tushar.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

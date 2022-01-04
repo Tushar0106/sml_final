@@ -1,0 +1,145 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style="padding: 0px 1rem;">
+    <a class="navbar-brand" href="profile_details.php" title="View Profile">
+      <img src="images/avatar/<?php echo $_SESSION['slam']['avatar']; ?>" width="50px" height="50px" class="img-circle" style="border-radius: 50%;"> <?php echo $_SESSION['slam']['name']; ?>
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="dashboard.php">
+            <i class="fa fa-fw fa-dashboard"></i>
+            <span class="nav-link-text">Dashboard</span>
+          </a>
+        </li>
+        
+         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Menu Levels">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-sitemap"></i>
+            <span class="nav-link-text">Students</span>
+          </a>
+          <ul class="sidenav-second-level collapse" id="collapseMulti">
+            <li>
+              <a href="manage_students.php">All Students</a>
+            </li>
+            <!-- <li>
+              <a href="search_students.php">Search Students</a>
+            </li> -->          
+          </ul>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-file"></i>
+            <span class="nav-link-text">Books</span>
+          </a>
+          <ul class="sidenav-second-level collapse" id="collapseExamplePages">
+            <li>
+              <a href="add_book.php">Add Book</a>
+            </li>
+            <li>
+              <a href="manage-books.php">Manage Books</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-wrench"></i>
+            <span class="nav-link-text">Issue Book</span>
+          </a>
+          <ul class="sidenav-second-level collapse" id="collapseComponents">
+            <li>
+              <a href="issue_book.php">Issue new book</a>
+            </li>
+            <li>
+              <a href="manage_issue_book.php">Managed issued books</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <a class="nav-link" href="add-notification.php">
+          <span class="nav-link-text">Add Notification</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <span style="color: #fff;margin-left: 20px ">All Notification</span>
+          <marquee direction = "up" behavior = "scroll"  scrollamount = "2" scrolldelay ="10" >
+          <ol style="margin-top: -0px">
+            <?php 
+            $sql = mysql_query("select * from notification", $con);
+            while ($row = mysql_fetch_array($sql)) {
+            ?>
+            <a href="images/avatar/<?php echo $row['file']; ?>" target="blank"><li style="color: #fff; line-height: 26px;"><?php echo $row['title']; ?></li>
+            <?php } ?>
+          </ol>
+          </marquee>
+        </li>
+      </ul>
+      <!-- <ul class="navbar-nav sidenav-toggler">
+        <li class="nav-item">
+          <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul> -->
+      <ul class="navbar-nav ml-auto">
+        <!-- <li class="nav-item dropdown" id="content" >
+          <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-fw fa-envelope"></i>
+            <span>Books</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+            <a class="dropdown-item" href="login.php">
+              <strong>Add Book</strong>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="login.php">
+              <strong>Manage Books</strong>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-fw fa-envelope"></i>
+            <span>Issue Book</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+            <a class="dropdown-item" href="staff_register.php">
+              <strong>Issue new book</strong>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="register.php">
+              <strong>Managed issued books</strong>
+            </a>
+          </div>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">Reg Students</a>
+        </li> -->
+          
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="logout.php">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>

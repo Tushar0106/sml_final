@@ -1,0 +1,26 @@
+.head_name {
+    padding-top: 20px;
+}
+.head_name h3{
+	color:#cac6c6;
+}
+.head_name h3 span{
+	color:#9a0f2f;
+}
+.card-body.view_pro {
+    background-color: #797878;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+button#submit.edit {
+    margin-top: -443px;
+    margin-right: -900px;
+}
+.mr-5.branch_name {
+    font-weight: 600;
+    text-align: center;
+}
+input ::placeholder{
+    color: red;
+}
+
